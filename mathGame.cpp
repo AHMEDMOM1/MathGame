@@ -38,13 +38,13 @@ char askToPlayAgain() {
 string getOperationSymbol(OperationType type) {
     switch (type) {
     case Addition:
-        return "+";
+        return "Add";
     case Subtraction:
-        return "-";
+        return "Sub";
     case Division:
-        return "/";
+        return "Div";
     case Multiplication:
-        return "*";
+        return "Multi";
     }
     return "Mixed";
 }
