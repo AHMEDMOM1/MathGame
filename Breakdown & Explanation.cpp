@@ -38,10 +38,10 @@ enum OperationType { Addition = 1, Subtraction, Division, Multiplication, MixedO
 
 string getOperationSymbol(OperationType type) {
     switch (type) {
-        case Addition: return "+";
-        case Subtraction: return "-";
-        case Division: return "/";
-        case Multiplication: return "*";
+        case Addition: return "Add";
+        case Subtraction: return "Sub";
+        case Division: return "Div";
+        case Multiplication: return "Multi";
         default: return "Mixed";
     }
 }
