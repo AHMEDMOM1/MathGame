@@ -92,7 +92,7 @@ Correct!
 ----------------------------
 Number of Questions    : 5
 Questions Difficulty   : Easy
-Operation Type         : +
+Operation Type         : Add
 Number of Correct Answers : 5
 Number of Wrong Answers   : 0
 
